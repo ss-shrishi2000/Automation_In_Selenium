@@ -27,5 +27,6 @@ public class ExplicitWait {
         driver.findElement(By.id("login-button")).click();
         List<WebElement> lst = driver.findElements(By.id("inventory_item"));
         System.out.println(lst);
+        driver.close();
     }
 }

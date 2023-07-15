@@ -25,5 +25,6 @@ public class HandlingDropdowns {
         select.selectByValue("Podcast");
         Thread.sleep(2000);
         select.selectByVisibleText("YouTube");
+        driver.close();
     }
 }
