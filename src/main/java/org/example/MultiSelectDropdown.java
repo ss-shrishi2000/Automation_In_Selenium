@@ -33,9 +33,9 @@ public class MultiSelectDropdown {
         driver.get("https://www.tutorialspoint.com/selenium/selenium_automation_practice.htm");
         //identify dropdown
         WebElement d = driver.findElement(By.xpath("//select[@name='selenium_commands']"));
-        Select s=new Select(d);
+        Select s = new Select(d);
         //get options of dropdown in list
-        List lst =s.getOptions();
+        List lst = s.getOptions();
         System.out.println("Options are: ");
         for(int i = 0; i < lst.size(); i++){
             System.out.println(lst.get(i));
